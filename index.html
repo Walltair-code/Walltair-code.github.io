@@ -1,126 +1,215 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Consultant - Professional Services</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WALLTAIR — Technical &amp; Cortona3D Consulting</title>
+<meta name="description" content="WALLTAIR AB — technical and engineering consulting, Cortona3D implementation, process improvement, and AI &amp; automation. Based in Gothenburg, Sweden.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="container">
-            <div class="logo">Your Name</div>
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </div>
+
+<div class="grid-field" aria-hidden="true"></div>
+
+<header class="nav" id="home">
+  <div class="nav__inner">
+    <a class="nav__mark" href="#home">
+      <span class="nav__mark-glyph">W</span>
+      <span class="nav__mark-text">WALLTAIR</span>
+    </a>
+    <nav class="nav__links">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#cortona3d">Cortona3D</a>
+      <a href="#contact">Contact</a>
     </nav>
+  </div>
+</header>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <h1>Professional Consultant</h1>
-                <p>Helping businesses achieve their goals through expert consulting and strategic guidance</p>
-                <a href="#contact" class="cta-button">Get in Touch</a>
-            </div>
-        </div>
-    </section>
+<main>
 
-    <!-- About Section -->
-    <section id="about" class="about">
-        <div class="container">
-            <h2>About Me</h2>
-            <div class="about-content">
-                <div class="about-text">
-                    <p>
-                        I'm a dedicated consultant with years of experience helping businesses navigate complex challenges 
-                        and unlock their full potential. My approach combines strategic thinking with practical solutions 
-                        tailored to your specific needs.
-                    </p>
-                    <p>
-                        Whether you're looking to optimize operations, develop new strategies, or overcome specific business obstacles, 
-                        I bring expertise, insight, and a results-oriented mindset to every project.
-                    </p>
-                </div>
-                <div class="stats">
-                    <div class="stat-box">
-                        <h3>10+</h3>
-                        <p>Years Experience</p>
-                    </div>
-                    <div class="stat-box">
-                        <h3>50+</h3>
-                        <p>Projects Completed</p>
-                    </div>
-                    <div class="stat-box">
-                        <h3>100%</h3>
-                        <p>Client Satisfaction</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero__corner hero__corner--tl" aria-hidden="true"></div>
+    <div class="hero__corner hero__corner--tr" aria-hidden="true"></div>
+    <p class="eyebrow">WALLTAIR AB &nbsp;·&nbsp; ORG.NR 559592-2765 &nbsp;·&nbsp; GOTHENBURG, SWEDEN</p>
+    <h1 class="hero__title">
+      Technical work,<br>
+      drawn to spec.
+    </h1>
+    <p class="hero__lede">
+      WALLTAIR is a Swedish engineering and technical consultancy built around one
+      discipline: taking complex systems and documenting, implementing, and improving
+      them until they run the way they were meant to. Founded 2026. Specialized in
+      Cortona3D implementation, technical documentation, and process engineering.
+    </p>
+    <div class="hero__actions">
+      <a class="btn btn--primary" href="#contact">Start a project</a>
+      <a class="btn btn--ghost" href="#services">See what I do</a>
+    </div>
+    <ul class="hero__facts">
+      <li><span class="hero__fact-label">Status</span><span class="hero__fact-value">F-skatt approved</span></li>
+      <li><span class="hero__fact-label">Founded</span><span class="hero__fact-value">30 June 2026</span></li>
+      <li><span class="hero__fact-label">Focus</span><span class="hero__fact-value">Cortona3D &amp; technical consulting</span></li>
+    </ul>
+  </section>
 
-    <!-- Services Section -->
-    <section id="services" class="services">
-        <div class="container">
-            <h2>Services</h2>
-            <div class="services-grid">
-                <div class="service-card">
-                    <h3>Business Strategy</h3>
-                    <p>Develop comprehensive strategies to drive growth and competitive advantage in your market.</p>
-                </div>
-                <div class="service-card">
-                    <h3>Operations Optimization</h3>
-                    <p>Streamline processes and improve efficiency across your organization.</p>
-                </div>
-                <div class="service-card">
-                    <h3>Digital Transformation</h3>
-                    <p>Navigate digital change and modernize your business for the future.</p>
-                </div>
-                <div class="service-card">
-                    <h3>Risk Management</h3>
-                    <p>Identify and mitigate risks while capitalizing on opportunities.</p>
-                </div>
-                <div class="service-card">
-                    <h3>Change Management</h3>
-                    <p>Guide your organization through transitions and organizational changes.</p>
-                </div>
-                <div class="service-card">
-                    <h3>Performance Analytics</h3>
-                    <p>Measure and improve key performance indicators across your business.</p>
-                </div>
-            </div>
+  <!-- ABOUT -->
+  <section class="sheet" id="about">
+    <div class="sheet__head">
+      <span class="sheet__tag">REF 01</span>
+      <h2>About</h2>
+    </div>
+    <div class="sheet__body about">
+      <p>
+        I'm Anton Waller, founder of WALLTAIR. I work as an independent technical
+        consultant, taking on assignments primarily through consulting brokers on a
+        pure-referral basis — no staffing markup, no middle layer between the work and
+        the client.
+      </p>
+      <p>
+        My background sits at the intersection of engineering documentation and
+        practical implementation: turning ambiguous technical requirements into systems,
+        drawings, and processes that hold up under real use. That's the same lens I bring
+        to Cortona3D projects, process improvement work, and the automation tooling I
+        build alongside it.
+      </p>
+      <div class="about__specs">
+        <div class="spec">
+          <span class="spec__k">SNI 71.122</span>
+          <span class="spec__v">Engineering &amp; technical consulting</span>
         </div>
-    </section>
+        <div class="spec">
+          <span class="spec__k">SNI 62.201</span>
+          <span class="spec__v">Computer consultancy services</span>
+        </div>
+        <div class="spec">
+          <span class="spec__k">Model</span>
+          <span class="spec__v">Ren förmedling — broker-sourced assignments</span>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2>Let's Work Together</h2>
-            <p>Ready to transform your business? Get in touch to discuss how I can help.</p>
-            <form class="contact-form">
-                <input type="text" placeholder="Your Name" required>
-                <input type="email" placeholder="Your Email" required>
-                <textarea placeholder="Your Message" rows="5" required></textarea>
-                <button type="submit" class="cta-button">Send Message</button>
-            </form>
-            <div class="contact-info">
-                <p>📧 Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
-                <p>💼 LinkedIn: <a href="https://linkedin.com" target="_blank">Your Profile</a></p>
-            </div>
-        </div>
-    </section>
+  <!-- SERVICES -->
+  <section class="sheet" id="services">
+    <div class="sheet__head">
+      <span class="sheet__tag">REF 02</span>
+      <h2>Services</h2>
+    </div>
+    <div class="services">
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <p>&copy; 2026 Consultant. All rights reserved.</p>
-        </div>
-    </footer>
+      <article class="service">
+        <span class="service__code">71.122</span>
+        <h3>Technical &amp; Engineering Consulting</h3>
+        <p>Hands-on consulting across technical projects — from requirements to delivery, working directly inside client teams.</p>
+      </article>
+
+      <article class="service service--featured">
+        <span class="service__code">FLAGSHIP</span>
+        <h3>Cortona3D Implementation</h3>
+        <p>Setup, configuration, and rollout of Cortona3D for interactive technical documentation and 3D work instructions.</p>
+      </article>
+
+      <article class="service">
+        <span class="service__code">PM</span>
+        <h3>Project Management</h3>
+        <p>Planning and running technical projects — scope, schedule, and stakeholders held to the same standard.</p>
+      </article>
+
+      <article class="service">
+        <span class="service__code">OPS</span>
+        <h3>Process Improvement</h3>
+        <p>Mapping how work actually happens, then removing the steps that don't need to.</p>
+      </article>
+
+      <article class="service">
+        <span class="service__code">AI</span>
+        <h3>AI &amp; Automation</h3>
+        <p>Practical automation and AI tooling aimed at cutting manual, repetitive technical work.</p>
+      </article>
+
+      <article class="service">
+        <span class="service__code">DOC</span>
+        <h3>Technical Documentation</h3>
+        <p>Manuals, work instructions, and interactive documentation that people actually use on the floor.</p>
+      </article>
+
+      <article class="service">
+        <span class="service__code">62.201</span>
+        <h3>Software Licensing &amp; Distribution</h3>
+        <p>Licensing support and distribution for the software platforms behind the above.</p>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- CORTONA3D FEATURE -->
+  <section class="cortona" id="cortona3d">
+    <div class="cortona__frame" aria-hidden="true"></div>
+    <div class="cortona__content">
+      <span class="sheet__tag">REF 03</span>
+      <h2>Why Cortona3D</h2>
+      <p>
+        Cortona3D turns static manuals into interactive 3D work instructions and IETPs —
+        the kind of documentation that actually shortens training time and reduces
+        errors on the floor. It's a narrow, specialized skill set, which is exactly why
+        it's in short supply.
+      </p>
+      <p>
+        WALLTAIR is built around that specialization: implementation, configuration, and
+        content authoring for teams that need technical documentation to do more than
+        sit in a binder.
+      </p>
+    </div>
+  </section>
+
+  <!-- CONTACT / TITLE BLOCK -->
+  <section class="titleblock" id="contact">
+    <div class="titleblock__head">
+      <span class="sheet__tag">REF 04</span>
+      <h2>Get in touch</h2>
+      <p>Available for new assignments, direct or through consulting brokers.</p>
+    </div>
+
+    <div class="tb">
+      <div class="tb__row">
+        <span class="tb__k">Company</span>
+        <span class="tb__v">WALLTAIR AB</span>
+      </div>
+      <div class="tb__row">
+        <span class="tb__k">Org.nr</span>
+        <span class="tb__v">559592-2765</span>
+      </div>
+      <div class="tb__row">
+        <span class="tb__k">Email</span>
+        <span class="tb__v"><a href="mailto:anton.waller@walltair.se">anton.waller@walltair.se</a></span>
+      </div>
+      <div class="tb__row">
+        <span class="tb__k">LinkedIn</span>
+        <span class="tb__v"><a href="#" target="_blank" rel="noopener">linkedin.com/company/walltair</a></span>
+      </div>
+      <div class="tb__row">
+        <span class="tb__k">Location</span>
+        <span class="tb__v">Gothenburg, Sweden</span>
+      </div>
+      <div class="tb__row">
+        <span class="tb__k">Status</span>
+        <span class="tb__v">F-skatt approved · Open for assignments</span>
+      </div>
+    </div>
+
+    <a class="btn btn--primary btn--full" href="mailto:anton.waller@walltair.se">Send a message</a>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <p>© 2026 WALLTAIR AB · Org.nr 559592-2765 · Gothenburg, Sweden</p>
+</footer>
+
 </body>
 </html>
