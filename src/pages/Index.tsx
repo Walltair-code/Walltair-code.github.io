@@ -5,6 +5,8 @@ import { useRef } from "react";
 import { Layout } from "@/components/Layout";
 import { Button } from "@/components/ui/button";
 import { caseStudies } from "@/data/portfolio";
+import { caseStudies } from "@/data/portfolio";
+import mePhoto from "@/assets/Me.jpeg";
 
 const Index = () => {
   const heroRef = useRef<HTMLDivElement>(null);
@@ -22,7 +24,7 @@ const Index = () => {
             className="relative h-[50svh] lg:h-auto overflow-hidden"
           >
             <img
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&q=80"
+              src={mePhoto}
               alt="Portrait"
               className="w-full h-full object-cover"
             />
