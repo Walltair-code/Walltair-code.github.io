@@ -39,7 +39,7 @@ const Index = () => {
             >
               <p className="section-label mb-6">Independent Consultant</p>
               <h1 className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl text-foreground mb-8 leading-[0.92] tracking-tight">
-                
+                Anton
                 <br />
                 <span className="italic">Waller</span>
               </h1>
