@@ -39,9 +39,9 @@ const Index = () => {
             >
               <p className="section-label mb-6">Independent Consultant</p>
               <h1 className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl text-foreground mb-8 leading-[0.92] tracking-tight">
-                [Your]
+                
                 <br />
-                <span className="italic">Name</span>
+                <span className="italic">Waller</span>
               </h1>
               <p className="text-lg md:text-xl text-muted-foreground mb-6 leading-relaxed">
                 Product design, operations, engineering, and product development.
