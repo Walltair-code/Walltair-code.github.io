@@ -24,7 +24,7 @@ const Index = () => {
             <img
               src={mePhoto}
               alt="Portrait"
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover object-[50%_15%] lg:object-center"
             />
             <div className="absolute inset-0 bg-gradient-to-r from-transparent to-background/20 lg:hidden" />
           </motion.div>
