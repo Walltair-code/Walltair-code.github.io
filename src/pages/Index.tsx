@@ -4,7 +4,7 @@ import { ArrowRight, ArrowDown } from "lucide-react";
 import { useRef } from "react";
 import { Layout } from "@/components/Layout";
 import { Button } from "@/components/ui/button";
-import mePhoto from "@/assets/Me.jpeg";
+import mePhoto from "@/assets/Me.png";
 
 const Index = () => {
   const heroRef = useRef<HTMLDivElement>(null);
