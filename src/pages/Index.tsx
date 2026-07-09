@@ -12,8 +12,8 @@ const Index = () => {
   return (
     <Layout>
       {/* Hero Section — Split Screen */}
-      <section ref={heroRef} className="relative min-h-[100svh] -mt-16 md:-mt-20 overflow-hidden">
-        <div className="absolute inset-0 grid lg:grid-cols-2">
+      <section ref={heroRef} className="relative min-h-[100svh] -mt-16 md:-mt-20 lg:overflow-hidden">
+        <div className="grid lg:absolute lg:inset-0 lg:grid-cols-2">
           {/* Left: Image */}
           <motion.div
             initial={{ opacity: 0 }}
@@ -30,7 +30,7 @@ const Index = () => {
           </motion.div>
 
           {/* Right: Content */}
-          <div className="relative flex items-center bg-background px-8 lg:px-16 xl:px-24 py-24 lg:py-32">
+          <div className="relative flex items-center bg-background px-8 lg:px-16 xl:px-24 py-16 lg:py-32">
             <motion.div
               initial={{ opacity: 0, y: 40 }}
               animate={{ opacity: 1, y: 0 }}
