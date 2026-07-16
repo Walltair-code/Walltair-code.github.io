@@ -44,8 +44,8 @@ const Index = () => {
                 <span className="italic">Waller</span>
               </h1>
               <p className="text-lg md:text-xl text-muted-foreground mb-6 leading-relaxed">
-                Nyexaminerad civilingenjör inom produktframtagning (2026) och grundare
-                av WALLTAIR — ett konsultbolag inom teknisk konsulting med fokus på
+                Civilingenjör inom produktframtagning och grundare av WALLTAIR —
+                ett konsultbolag inom teknisk konsulting med fokus på
                 produktutveckling, processförbättring och projektledning.
               </p>
               <p className="text-base text-muted-foreground/80 mb-10 leading-relaxed max-w-md">
@@ -121,10 +121,10 @@ const Index = () => {
               },
               {
                 period: "2024",
-                place: "Båtproduktionsföretag, Göteborg",
+                place: "Humphree, Göteborg",
                 role: "Praktik & sommarjobb",
                 description:
-                  "Fick eget ansvar för att förbättra eftermarknadsförsäljningen, höll i kund- och leverantörskontakt med aktörer runt om i Europa, och drev igenom en ny mjukvarulösning som företaget senare valde att behålla permanent.",
+                  "Fick eget ansvar för att förbättra eftermarknadsförsäljningen, höll i kund- och leverantörskontakt med aktörer runt om i Europa, och tog fram en interaktiv reservdelskatalog som företaget senare valde att behålla permanent.",
               },
               {
                 period: "2026",
