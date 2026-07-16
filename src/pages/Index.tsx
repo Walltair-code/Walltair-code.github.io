@@ -44,13 +44,13 @@ const Index = () => {
                 <span className="italic">Waller</span>
               </h1>
               <p className="text-lg md:text-xl text-muted-foreground mb-6 leading-relaxed">
-                Civilingenjör inom produktframtagning och grundare av WALLTAIR —
+                Civilingenjör inom produktframtagning och grundare av WALLTAIR,
                 ett konsultbolag inom teknisk konsulting med fokus på
                 produktutveckling, processförbättring och projektledning.
               </p>
               <p className="text-base text-muted-foreground/80 mb-10 leading-relaxed max-w-md">
                 WALLTAIR befinner sig i en spännande uppstartsfas. Jag letar efter
-                företag som värdesätter praktisk, teknisk kompetens — och tar just
+                företag som värdesätter praktisk, teknisk kompetens, och tar just
                 nu emot nya konsultuppdrag.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
@@ -117,7 +117,7 @@ const Index = () => {
                 place: "Volvo Cars, Göteborg",
                 role: "Underhållstekniker",
                 description:
-                  "Jobbade med förbättring och underhåll av målerirobotar — en praktisk grund i industriella system och processtillförlitlighet innan ingenjörsstudierna tog vid.",
+                  "Jobbade med förbättring och underhåll av målerirobotar, vilket gav en praktisk grund i industriella system och processtillförlitlighet innan ingenjörsstudierna tog vid.",
               },
               {
                 period: "2024",
@@ -128,7 +128,7 @@ const Index = () => {
               },
               {
                 period: "2026",
-                place: "Polestar — Mission Zero House",
+                place: "Polestar, Mission Zero House",
                 role: "Examensarbete",
                 description:
                   "Tog fram en ny metod för koldioxidfri metallframställning inom ramen för Polestars initiativ Mission Zero House. Arbetet togs emot väl och har sedan dess presenterats vid flera uppföljande möten.",
@@ -189,11 +189,11 @@ const Index = () => {
               {[
                 {
                   title: "Produktutveckling",
-                  description: "Förvandlar idéer till fungerande produkter — från koncept och prototyp till tillverkningsklar design."
+                  description: "Förvandlar idéer till fungerande produkter, från koncept och prototyp till tillverkningsklar design."
                 },
                 {
                   title: "Processförbättring",
-                  description: "Identifierar ineffektivitet och bygger bättre system, på verkstadsgolvet eller i arbetsflödet — grundat i verklig industriell erfarenhet."
+                  description: "Identifierar ineffektivitet och bygger bättre system på verkstadsgolvet eller i arbetsflödet, grundat i verklig industriell erfarenhet."
                 },
                 {
                   title: "Projektledning",
@@ -223,7 +223,7 @@ const Index = () => {
           >
             <p className="section-label text-background/40 mb-8">Var WALLTAIR Står Idag</p>
             <blockquote className="text-3xl md:text-4xl lg:text-5xl font-serif leading-[1.15] mb-10">
-              "WALLTAIR har precis dragit igång — och det är precis poängen.
+              "WALLTAIR har precis dragit igång, och det är precis poängen.
               Jag söker företag som vågar satsa på en driven, tekniskt kunnig
               partner som är redo att bevisa sitt värde."
             </blockquote>
@@ -252,7 +252,7 @@ const Index = () => {
             <p className="text-muted-foreground leading-relaxed max-w-xl mx-auto mb-10">
               WALLTAIR AB tar just nu emot nya kunder. Söker du praktiskt stöd inom
               produktutveckling, processförbättring eller projektledning? Då tar jag
-              gärna ett kort samtal — fysiskt eller digitalt.
+              gärna ett kort samtal, fysiskt eller digitalt.
             </p>
             <Button
               asChild

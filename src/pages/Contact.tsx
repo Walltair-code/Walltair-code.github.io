@@ -18,7 +18,7 @@ const Contact = () => {
           <p className="text-muted-foreground leading-relaxed max-w-xl mx-auto mb-12">
             WALLTAIR AB tar just nu emot nya kunder. Söker du praktiskt stöd inom
             produktutveckling, processförbättring eller projektledning? Då tar jag
-            gärna ett kort samtal — fysiskt eller digitalt.
+            gärna ett kort samtal, fysiskt eller digitalt.
           </p>
           <a
             href="mailto:anton.waller@walltair.se"
