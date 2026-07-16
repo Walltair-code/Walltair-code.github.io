@@ -4,8 +4,8 @@ const Work = () => {
   return (
     <Layout>
       <div className="container-full py-32">
-        <h1 className="text-4xl">Work</h1>
-        <p className="text-muted-foreground mt-4">Case studies coming soon.</p>
+        <h1 className="text-4xl">Arbete</h1>
+        <p className="text-muted-foreground mt-4">Fallstudier kommer snart.</p>
       </div>
     </Layout>
   )

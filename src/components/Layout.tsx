@@ -11,14 +11,14 @@ export function Layout({ children }: { children: ReactNode }) {
             <img src={walltairLogo} alt="Walltair" className="h-5 md:h-6 w-auto" />
           </Link>
           <div className="flex gap-6 text-sm">
-            <Link to="/work">Work</Link>
-            <Link to="/contact">Contact</Link>
+            <Link to="/work">Arbete</Link>
+            <Link to="/contact">Kontakt</Link>
           </div>
         </nav>
       </header>
       <main className="flex-1">{children}</main>
       <footer className="py-8 text-center text-sm text-muted-foreground border-t border-border">
-        © {new Date().getFullYear()} WALLTAIR AB. All rights reserved.
+        © {new Date().getFullYear()} WALLTAIR AB. Alla rättigheter förbehållna.
       </footer>
     </div>
   )

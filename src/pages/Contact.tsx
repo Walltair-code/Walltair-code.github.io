@@ -11,14 +11,14 @@ const Contact = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, ease: [0.25, 0.46, 0.45, 0.94] as const }}
         >
-          <p className="section-label mb-6">Get in Touch</p>
+          <p className="section-label mb-6">Kontakt</p>
           <h1 className="text-4xl md:text-5xl lg:text-6xl text-foreground mb-8 leading-[1.05]">
-            Let's talk about what WALLTAIR can do for you.
+            Nyfiken på ett samarbete?
           </h1>
           <p className="text-muted-foreground leading-relaxed max-w-xl mx-auto mb-12">
-            WALLTAIR AB is currently taking on new clients. Whether you're looking for
-            support with product development, process improvement, or project management,
-            I'd welcome a short conversation — in person or online.
+            WALLTAIR AB tar just nu emot nya kunder. Söker du praktiskt stöd inom
+            produktutveckling, processförbättring eller projektledning? Då tar jag
+            gärna ett kort samtal — fysiskt eller digitalt.
           </p>
           <a
             href="mailto:anton.waller@walltair.se"

@@ -23,7 +23,7 @@ const Index = () => {
           >
             <img
               src={mePhoto}
-              alt="Portrait"
+              alt="Porträttfoto"
               className="w-full h-full object-cover object-[50%_15%] lg:object-center"
             />
             <div className="absolute inset-0 bg-gradient-to-r from-transparent to-background/20 lg:hidden" />
@@ -37,21 +37,21 @@ const Index = () => {
               transition={{ duration: 1, delay: 0.3, ease: [0.25, 0.46, 0.45, 0.94] as const }}
               className="max-w-xl"
             >
-              <p className="section-label mb-6">Founder, WALLTAIR AB</p>
+              <p className="section-label mb-6">Grundare, WALLTAIR AB</p>
               <h1 className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl text-foreground mb-8 leading-[0.92] tracking-tight">
                 Anton
                 <br />
                 <span className="italic">Waller</span>
               </h1>
               <p className="text-lg md:text-xl text-muted-foreground mb-6 leading-relaxed">
-                M.Sc. Mechanical Engineer specializing in product development (2026),
-                and founder of WALLTAIR — a technical consultancy focused on product
-                development, process improvement, and project management.
+                Nyexaminerad civilingenjör inom produktframtagning (2026) och grundare
+                av WALLTAIR — ett konsultbolag inom teknisk konsulting med fokus på
+                produktutveckling, processförbättring och projektledning.
               </p>
               <p className="text-base text-muted-foreground/80 mb-10 leading-relaxed max-w-md">
-                Currently building WALLTAIR from the ground up. I'm looking to partner
-                with companies that value hands-on technical expertise and am actively
-                taking on new consulting engagements.
+                WALLTAIR befinner sig i en spännande uppstartsfas. Jag letar efter
+                företag som värdesätter praktisk, teknisk kompetens — och tar just
+                nu emot nya konsultuppdrag.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button
@@ -60,7 +60,7 @@ const Index = () => {
                   className="rounded-none px-10 py-6 text-sm tracking-[0.15em] uppercase btn-premium"
                 >
                   <a href="#background">
-                    My Background
+                    Min bakgrund
                     <ArrowRight className="ml-3 w-4 h-4" />
                   </a>
                 </Button>
@@ -70,7 +70,7 @@ const Index = () => {
                   size="lg"
                   className="rounded-none px-10 py-6 text-sm tracking-[0.15em] uppercase"
                 >
-                  <Link to="/contact">Get in Touch</Link>
+                  <Link to="/contact">Kontakta mig</Link>
                 </Button>
               </div>
             </motion.div>
@@ -82,7 +82,7 @@ const Index = () => {
               transition={{ delay: 1.5 }}
               className="absolute bottom-8 left-1/2 -translate-x-1/2 lg:left-8 lg:translate-x-0 flex flex-col items-center gap-2"
             >
-              <span className="text-[10px] tracking-[0.3em] uppercase text-muted-foreground/50">Scroll</span>
+              <span className="text-[10px] tracking-[0.3em] uppercase text-muted-foreground/50">Scrolla</span>
               <motion.div
                 animate={{ y: [0, 8, 0] }}
                 transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
@@ -104,9 +104,9 @@ const Index = () => {
             transition={{ duration: 0.6 }}
             className="mb-16"
           >
-            <p className="section-label mb-3">Background</p>
+            <p className="section-label mb-3">Bakgrund</p>
             <h2 className="text-4xl md:text-5xl text-foreground max-w-2xl">
-              From the shop floor to the drawing board.
+              Från verkstadsgolvet till ritbordet.
             </h2>
           </motion.div>
 
@@ -115,23 +115,23 @@ const Index = () => {
               {
                 period: "2018 – 2021",
                 place: "Volvo Cars",
-                role: "Maintenance Technician",
+                role: "Underhållstekniker",
                 description:
-                  "Maintained and improved paint-shop robotics, building a hands-on foundation in industrial systems and process reliability before starting my engineering studies.",
+                  "Jobbade med förbättring och underhåll av målerirobotar — en praktisk grund i industriella system och processtillförlitlighet innan ingenjörsstudierna tog vid.",
               },
               {
                 period: "2024",
-                place: "Boat Production Company, Gothenburg",
-                role: "Internship & Summer Role",
+                place: "Båtproduktionsföretag, Göteborg",
+                role: "Praktik & sommarjobb",
                 description:
-                  "Took ownership of improving aftermarket sales, managed customer and supplier relationships across Europe, and led the implementation of a new software system the company chose to keep on permanently.",
+                  "Fick eget ansvar för att förbättra eftermarknadsförsäljningen, höll i kund- och leverantörskontakt med aktörer runt om i Europa, och drev igenom en ny mjukvarulösning som företaget senare valde att behålla permanent.",
               },
               {
                 period: "2026",
                 place: "Polestar — Mission Zero House",
-                role: "Master's Thesis",
+                role: "Examensarbete",
                 description:
-                  "Developed a new method for carbon-free metal production as part of Polestar's Mission Zero House initiative. The results were well received and have since been presented at several follow-up meetings.",
+                  "Tog fram en ny metod för koldioxidfri metallframställning inom ramen för Polestars initiativ Mission Zero House. Arbetet togs emot väl och har sedan dess presenterats vid flera uppföljande möten.",
               },
             ].map((item, index) => (
               <motion.div
@@ -173,9 +173,9 @@ const Index = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
             >
-              <p className="section-label mb-4">How I Help</p>
+              <p className="section-label mb-4">Vad Jag Erbjuder</p>
               <h2 className="text-4xl md:text-5xl lg:text-6xl text-foreground leading-[1.05]">
-                Technical consulting, grounded in hands-on experience.
+                Teknisk konsulting, grundad i praktisk erfarenhet.
               </h2>
             </motion.div>
 
@@ -188,16 +188,16 @@ const Index = () => {
             >
               {[
                 {
-                  title: "Product Development",
-                  description: "Turn ideas into working products — from concept and prototyping through to manufacturing-ready design."
+                  title: "Produktutveckling",
+                  description: "Förvandlar idéer till fungerande produkter — från koncept och prototyp till tillverkningsklar design."
                 },
                 {
-                  title: "Process Improvement",
-                  description: "Identify inefficiencies and build better systems, on the shop floor or in the workflow — grounded in real industrial experience."
+                  title: "Processförbättring",
+                  description: "Identifierar ineffektivitet och bygger bättre system, på verkstadsgolvet eller i arbetsflödet — grundat i verklig industriell erfarenhet."
                 },
                 {
-                  title: "Project Management",
-                  description: "Drive cross-functional initiatives from kickoff to delivery, keeping stakeholders and suppliers aligned along the way."
+                  title: "Projektledning",
+                  description: "Driver tvärfunktionella initiativ från start till leverans, och håller intressenter och leverantörer samordnade längs vägen."
                 }
               ].map((service, index) => (
                 <div key={index} className="border-t border-border pt-8">
@@ -221,16 +221,16 @@ const Index = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.8, ease: [0.25, 0.46, 0.45, 0.94] as const }}
           >
-            <p className="section-label text-background/40 mb-8">Where WALLTAIR Is Now</p>
+            <p className="section-label text-background/40 mb-8">Var WALLTAIR Står Idag</p>
             <blockquote className="text-3xl md:text-4xl lg:text-5xl font-serif leading-[1.15] mb-10">
-              "WALLTAIR is just getting started — and that's exactly the point.
-              I'm looking for companies willing to take a chance on a driven,
-              technically grounded partner who's ready to prove it."
+              "WALLTAIR har precis dragit igång — och det är precis poängen.
+              Jag söker företag som vågar satsa på en driven, tekniskt kunnig
+              partner som är redo att bevisa sitt värde."
             </blockquote>
             <div className="text-sm tracking-[0.1em] uppercase text-background/60">
               <span className="text-background">Anton Waller</span>
               <span className="mx-3">·</span>
-              <span>Founder, WALLTAIR AB</span>
+              <span>Grundare, WALLTAIR AB</span>
             </div>
           </motion.div>
         </div>
@@ -245,14 +245,14 @@ const Index = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.8, ease: [0.25, 0.46, 0.45, 0.94] as const }}
           >
-            <p className="section-label mb-6">Start a Conversation</p>
+            <p className="section-label mb-6">Hör Av Dig</p>
             <h2 className="text-4xl md:text-5xl lg:text-6xl text-foreground mb-8 leading-[1.05]">
-              Open to new consulting engagements.
+              Öppen för nya konsultuppdrag.
             </h2>
             <p className="text-muted-foreground leading-relaxed max-w-xl mx-auto mb-10">
-              WALLTAIR AB is currently taking on new clients. If you're looking for hands-on
-              support in product development, process improvement, or project management,
-              I'd welcome a short conversation — in person or online.
+              WALLTAIR AB tar just nu emot nya kunder. Söker du praktiskt stöd inom
+              produktutveckling, processförbättring eller projektledning? Då tar jag
+              gärna ett kort samtal — fysiskt eller digitalt.
             </p>
             <Button
               asChild
@@ -260,7 +260,7 @@ const Index = () => {
               className="rounded-none px-10 py-6 text-sm tracking-[0.15em] uppercase btn-premium"
             >
               <Link to="/contact">
-                Get in Touch
+                Kontakta mig
                 <ArrowRight className="ml-3 w-4 h-4" />
               </Link>
             </Button>
