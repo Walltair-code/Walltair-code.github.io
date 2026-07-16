@@ -114,7 +114,7 @@ const Index = () => {
             {[
               {
                 period: "2018 – 2021",
-                place: "Volvo Cars",
+                place: "Volvo Cars, Göteborg",
                 role: "Underhållstekniker",
                 description:
                   "Jobbade med förbättring och underhåll av målerirobotar — en praktisk grund i industriella system och processtillförlitlighet innan ingenjörsstudierna tog vid.",
